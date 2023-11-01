@@ -1,6 +1,6 @@
-import Navbar2 from "../components/Navbar2";
-import Footer from "../components/Footer";
-import Life from "../components/Life";
+import Navbar2 from "../components/Navbar/Navbar2";
+import Footer from "../components/Footer/Footer";
+import Life from "../components/Life/Life";
 
 function LifePage() {
   return (
