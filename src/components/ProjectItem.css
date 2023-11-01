@@ -1,0 +1,18 @@
+.project-container{
+    border: 1px red solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container{
+    max-width: 50%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px){
+    .project-container{
+        max-width: 50%;
+    }
+    
+}
