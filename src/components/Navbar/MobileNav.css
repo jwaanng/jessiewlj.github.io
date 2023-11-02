@@ -68,9 +68,10 @@
     display: static;
     position: fixed;
     right:0;
-    background-color: transparent;
+    background-color:#fffdf6;
     border: none;
     padding: 1rem;
     z-index: 2;
-    cursor: pointer;;
+    cursor: pointer;
+    width: 95%;
 }

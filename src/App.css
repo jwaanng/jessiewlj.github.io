@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   border: 0;
-  /* background: #FFFAE9; */
+}
+
+:root{
+  background-color: #fffdf6;
 }
 
 body{
