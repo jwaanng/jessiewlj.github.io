@@ -21,7 +21,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <img src="myself.png" onClick={handleImageClick} alt='logooo'></img>
+            <img src="../Gallery/myself.png" onClick={handleImageClick} alt='logooo'></img>
             <div className='name'>
               made with ˚ʚ♡ɞ˚ by jessie wang 
             </div>
