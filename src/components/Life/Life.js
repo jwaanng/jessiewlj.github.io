@@ -8,10 +8,11 @@ function Life() {
     <>
     <div className='row'>
         <div className='column'>
-            <ImageContain src='Gallery/boat.jpg' description='boat'/>
+            <ImageContain src='Gallery/boat.jpg' description='Tobermory'/>
             <ImageContain src='Gallery/beachhdl.jpg' description='Awenda Park'/>
             <ImageContain src='Gallery/benedict.jpg'/>
-            <ImageContain src='Gallery/cat.jpg' description='cats!'/>
+            <ImageContain src='Gallery/cat.jpg'/>
+            <ImageContain src='Gallery/nobara.png' description='follow my art ig: @ikayobat :)'/>
         </div>
 
         <div className='column'>
@@ -19,7 +20,7 @@ function Life() {
             <ImageContain src='Gallery/condo.jpg'/>
             <ImageContain src='Gallery/diablo.jpg'/>
             <ImageContain src='Gallery/draw.jpg'/>
-            <ImageContain src='Gallery/duck.jpg' description='grilled duck'/>
+            <ImageContain src='Gallery/duck.jpg'/>
         </div>
 
         <div className='column'>

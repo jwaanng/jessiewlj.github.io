@@ -15,6 +15,10 @@
     /* border: 1px red solid; */
 }
 
+.project-section h3 {
+    margin-bottom: 20px;
+}
+
 .project-text {
     display: flex;
     justify-content: space-between;

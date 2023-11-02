@@ -12,7 +12,7 @@
 
 .image-container {
     position: relative;  
-    overflow: hidden;    /* Ensures the zoomed image doesn't exceed the container boundaries */
+    overflow: hidden;    
 }
 
 .image-container:hover img {
@@ -22,15 +22,18 @@
 
 .overlay-text {
     position: absolute;
-    left: 48%;
-    right: 48%;
+    left: 30%;
+    /* right: 48%; */
     top: 50%;
-    bottom: 50%;
+    /* bottom: 48%; */
     color: #fff;
+    width: 150px;
+    height: 100px;
     visibility: hidden;
     text-align: center;
     opacity: 0;
     font-size: 16px;
+
   }
   
   .image-container:hover .overlay-text {

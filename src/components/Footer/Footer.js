@@ -1,14 +1,27 @@
 import React from 'react';
 import './Footer.css';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+    const [clickCount, setClickCount] = useState(0);
+
+    const handleImageClick = () => {
+      const newClickCount = clickCount + 1;
+      setClickCount(newClickCount);
+  
+      if (newClickCount >= 10) {
+        window.alert('BOO! You found egg #1!');
+        setClickCount(0);
+      }
+    };
+
   return (
     <div className='footer-container'>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <img src="myself.png"></img>
+            <img src="myself.png" onClick={handleImageClick} alt='logooo'></img>
             <div className='name'>
               made with ˚ʚ♡ɞ˚ by jessie wang 
             </div>
