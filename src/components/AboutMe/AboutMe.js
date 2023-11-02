@@ -5,7 +5,7 @@ const AboutMe = (props) => (
   <div className="about-section">
     <div className="about-text" >
       <div className="image-area">
-        <img src='./RandomPics/professional.jpg' alt='wassupdawg' />
+        <img src='./RandomPics/professional.JPG' alt='wassupdawg' />
       </div>
       <div className="about-title-n-text">
         <h1>About Me</h1>
