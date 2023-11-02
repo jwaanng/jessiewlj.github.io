@@ -13,35 +13,19 @@ function Navbar2() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            jessie wang
-          </Link>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>jessie wang</Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                about me
-              </Link>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>about me</Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/projects'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                projects
-              </Link>
+              <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>projects</Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/life'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                life
-              </Link>
+              <Link to='/life' className='nav-links' onClick={closeMobileMenu} >life </Link>
             </li>
           </ul>
         </div>

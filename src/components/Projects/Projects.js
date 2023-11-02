@@ -35,8 +35,8 @@ function Projects() {
                 <ProjectItem
                 src="../Gallery/pie.jpg"
                 title="Escape From LOL"
-                text={<><h3>Since making games always seemed super cool, and I loved games, I decided to make my own- based off of my love-hate relationship with videogame XXX.
-                    The goal of 'Escape From LOL' is to solve simple puzzles, fight simple mobs, while being hunted down by your duo in order to escape from the dooming "we can't end on a loss"</h3>
+                text={<><h3>Inspired by my enthusiasm for games and a love-hate relationship with a certain video game XXX, I channeled that dynamic into the creation of my own RPG.
+                    The goal of 'Escape From LOL' is to solve simple puzzles, fight mobs, while being hunted down by your duo in order to escape from the dooming "we can't end on a loss."</h3>
                     <ul><li>Created an RPG game using GoDot game engine and GDScript</li>
                     <li>Implemented core game mechanics, such as player movement, combat systems, and non-player mobs, lives, story, animation system and dialogue using GDScript.</li> 
                     <li>Utilized GoDot's node system for efficient scene management and resource handling.</li>
@@ -48,10 +48,9 @@ function Projects() {
                 <ProjectItem
                 src="../Gallery/myself.PNG"
                 title="jwaanng.github.io"
-                text={<><h3>This personal website made using React.js, HTML, CSS, and some tears. Now I have a place to store my projects, my portfolio, my life... 
-                    plus, I learned a lot of valuable lessons:</h3><ul><li>Responsiveness is tricky</li>
+                text={<><h3>This personal website made using React.js, HTML, CSS, and some tears. Now I have a place to store my projects, my portfolio, and my life. 
+                    Plus, I learned many valuable lessons:</h3><ul><li>Responsiveness is tricky</li>
                     <li>'border: 1px red solid;'</li>
-                    <li>I can put easter eggs!</li>
                     </ul></>}
                     labels={["React"]} colors={[COLOR1]}
                         />

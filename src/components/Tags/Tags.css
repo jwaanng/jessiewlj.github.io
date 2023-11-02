@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Nunito:wght@700;800&family=VT323&display=swap');
+
 .tag{
     padding: 0.7rem 3rem;
     background-color: #1c2345;
@@ -12,14 +14,14 @@
 }
 
 @media screen and (max-width: 900px) {
-    .project-tag{
+    .tag{
         max-width: 20%;
-        border-radius: 5rem;
-        height: 10%;
-        font-size: 13px;
+        border-radius: 2rem;
+        height: 50%;
+        font-size: 6px;
         color: #FFFdf6;
         font-size: 12px;
-        margin: 10px;
-        padding: 0.2rem 0.1rem;
+        margin: 5px;
+        padding: 0.3rem 1rem;
     }
 }

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Nunito:wght@700;800&family=VT323&display=swap');
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #fffdf6;
+    min-width: 100vw;
+    min-height: 97vh;
+    transition: 0.8s ease; 
+    z-index: 1;
+    font-family: 'VT323';
+}
+
+.mn-item{
+    text-decoration: none;
+    /* border: 1px red solid; */
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.mn-item:hover{
+    /* text-decoration: none; */
+    opacity: 60%;
+    color:aquamarine;
+}
+
+.side-menu-icon{
+    /* border: 1px blue solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    min-height: 3vh;
+}
+
+.mn-logo{
+    font-family: 'vt323';
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: #1c2345;
+}
+
+.side-menu-icon i{
+    margin: 0 15px;
+}
+
+.side-menu-icon i:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:850px)
+{
+    .side-menu-icon {
+        display: none;
+    }
+
+    .menu{
+        display:none;
+    }
+}
+
+/* .side-menu-icon {
+    display: static;
+    position: fixed;
+    right:0;
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    z-index: 2;
+    cursor: pointer;;
+} */

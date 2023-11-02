@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Nunito:wght@700;800&family=VT323&display=swap');
+.navbar3{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #FFFdf6;
+    font-family: 'VT323', monospace;
+    /* border: 1px red solid; */
+    padding: 0 5%;
+    /* padding-right: 2%; */
+}
+
+.nav3-items{
+    display:flex;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+    align-items: center;
+    height: 80px;
+    max-width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar3-logo{
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  /* border: 1px solid red; */
+  color: #1c2345;
+  /* padding: 2rem; */
+}
+
+.nav3-item{
+    text-decoration: none;
+    color: #1c2345;
+    padding: 2rem;
+}
+
+.nav3-item:hover, .navbar3-logo:hover {
+  opacity:60%;
+}
+
+
+@media screen and (max-width:850px)
+{
+    .navbar3 {
+        display: none;
+    }
+    .nav-bar3 a {
+        text-align: left;
+    }
+}
