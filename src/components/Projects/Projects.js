@@ -46,7 +46,7 @@ function Projects() {
                     />
 
                 <ProjectItem
-                src="../Gallery/myself.png"
+                src="../Gallery/myself.PNG"
                 title="jwaanng.github.io"
                 text={<><h3>This personal website made using React.js, HTML, CSS, and some tears. Now I have a place to store my projects, my portfolio, my life... 
                     plus, I learned a lot of valuable lessons:</h3><ul><li>Responsiveness is tricky</li>
