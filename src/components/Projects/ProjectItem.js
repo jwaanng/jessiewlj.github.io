@@ -10,7 +10,9 @@ function ProjectItem(props) {
     <div className="project-section">
     <div className="project-text" >
       <div className="project-image-area">
+      <a href={props.linkto}>
         <img src={props.src} alt='wassupdawg' />
+      </a>
       </div>
       <div className="project--title-n-text">
         <h1>{props.title}</h1>

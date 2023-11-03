@@ -14,23 +14,36 @@ function Projects() {
         <>
             <div className='projects-container'>
                 <ProjectItem
+                    src='../Gallery/uoftguesser.png'
+                    title="UofTGuesser"
+                    text={<><h3>Imagine GeoGuessr, Kahoot, and our favourite university had a baby: UofTGuesser! I created UofTGuesser to try to get
+                        a grasp of front end development while also giving me an excuse to explore our campus a bit to take pictures for this project. </h3><ul><li>Developed a fullstack trivia style guessing game based on the University of Toronto campus</li>
+                        <li>Used MongoDB to store location data and photo data using google cloud APIs, connecting to a react front end using express.js</li>
+                        </ul></>}
+                    linkto="https://github.com/jwaanng/uoftguessertwo"
+                    labels={["React.js", "Express", "MongoDB", "GoogleCloud"]} colors={[COLOR1, COLOR2, COLOR3, COLOR4]}/>
+
+                <ProjectItem
                 src="../Gallery/eateat.png"
                 title="EATEAT"
-                text={<><h3>Hey! Are you visiting Toronto and don't know where to eat? Then EATEAT is created just. for. you. Now you can get a personalized food itinerary at the convinience of clicking 'run' on 'main.py'!
+                text={<><h3>Hey! Are you visiting Toronto and don't know where to eat? Then EATEAT is created just. for. you. Now you can get a personalized food itinerary at the convenience of clicking 'run' on 'main.py'!
                     </h3><ul><li>Used OOP fundamentals to implement a node-based map giving users restaurant recommendations based on preferences and proximity in a team of 4.</li>
                     <li>Used Tkinter package to create intuitive UI, where user can input preferences and choose map options</li>
                     <li>Utilized Tkinter map view to create a user-interactive map of restaurants based on a CSV dataset of locations, classification of food, and coordinates.</li>
                     </ul></>}
+                linkto="https://github.com/jwaanng/eat-eat"
                 labels={["Python", "Tkinter"]} colors={[COLOR2, COLOR3]}/>
 
                 <ProjectItem
-                src='../Gallery/uoftguesser.png'
-                title="UofTGuesser"
-                text={<><h3>Imagine GeoGuessr, Kahoot, and our favourite university had a baby: UofTGuesser! I created UofTGuesser to try to get
-                    a grasp of front end development while also giving me an excuse to explore our campus a bit to take pictures for this project. </h3><ul><li>Developed a fullstack trivia style guessing game based on the University of Toronto campus</li>
-                    <li>Used MongoDB to store location data and photo data using google cloud APIs, connecting to a react front end using express.js</li>
+                src="../Gallery/myself.PNG"
+                title="jwaanng.github.io"
+                text={<><h3>This personal website made using React.js, HTML, CSS, and some tears. Now I have a place to store my projects, my portfolio, and my life. 
+                    Plus, I learned many valuable lessons:</h3><ul><li>Responsiveness is tricky</li>
+                    <li>'border: 1px red solid;'</li>
                     </ul></>}
-                labels={["React.js", "Express", "MongoDB", "GoogleCloud"]} colors={[COLOR1, COLOR2, COLOR3, COLOR4]}/>
+                linkto="https://github.com/jwaanng/jwaanng.github.io"
+                    labels={["React.js"]} colors={[COLOR1]}
+                        />
 
                 <ProjectItem
                 src="../Gallery/pie.jpg"
@@ -44,16 +57,6 @@ function Projects() {
                     </ul></>}
                     labels={["GoDot", "GDScript"]} colors={[COLOR1, COLOR2]}
                     />
-
-                <ProjectItem
-                src="../Gallery/myself.PNG"
-                title="jwaanng.github.io"
-                text={<><h3>This personal website made using React.js, HTML, CSS, and some tears. Now I have a place to store my projects, my portfolio, and my life. 
-                    Plus, I learned many valuable lessons:</h3><ul><li>Responsiveness is tricky</li>
-                    <li>'border: 1px red solid;'</li>
-                    </ul></>}
-                    labels={["React"]} colors={[COLOR1]}
-                        />
             </div>
         </>
     )

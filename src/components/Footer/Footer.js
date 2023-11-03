@@ -15,6 +15,10 @@ function Footer() {
         setClickCount(0);
       }
     };
+    
+    const handleOpenResume = () => {
+     window.open("../RandomPics/Jessie Wang Resume New!.pdf","_blank");
+    }
 
   return (
     <div className='footer-container'>
@@ -36,12 +40,12 @@ function Footer() {
               <i class="fa-solid fa-gamepad"></i>
             </Link>
             <Link
-              class='social-icon-link instagram'
-              to='/'
+              class='social-icon-link resume'
+              onClick={handleOpenResume}
               target='_blank'
-              aria-label='Instagram'
+              aria-label='Resume'
             >
-              <i class='fab fa-instagram' />
+              <i class='fa-solid fa-file' />
             </Link>
             <Link
               class='social-icon-link github'
