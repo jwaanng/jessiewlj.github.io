@@ -17,7 +17,7 @@ function Footer() {
     };
     
     const handleOpenResume = () => {
-     window.open("../RandomPics/Jessie_Ninjie_Wang_Resume.pdf","_blank");
+     window.open("../RandomPics/Jessie_Ninjie_Wang_Resume!.pdf","_blank");
     }
 
   return (

@@ -24,6 +24,19 @@ function Projects() {
                     labels={["React.js", "Express", "MongoDB", "GoogleCloud"]} colors={[COLOR1, COLOR2, COLOR3, COLOR4]}/>
 
                 <ProjectItem
+                src="../Gallery/cat.jpg"
+                title="PETPAL"
+                text={<><h3>A dating app style app to find your new furry friend! This app taught me a lot about software architecture, using API calls, and MongoDB in java</h3><ul>
+                    <li>Created an app inspired by modern dating-app mechanics, to facilitate pet adoption and listing</li>.
+                    <li>Implemented clean architecture principles and design patterns, ensuring a robust and maintainable app.</li>
+                    <li>Leveraged Java Swing to design a user interface, supporting use cases including account creation, login, intuitive pet swiping, and matching functionalities based on preferences.</li>
+                    <li>Integrated Google Maps and Google Cloud storage, allowing geolocation capabilities.</li>
+                    </ul></>}
+                linkto="https://github.com/jwaanng/jwaanng.github.io"
+                    labels={["Java", "MongoDB", "CLEAN", "GoogleCloud"]} colors={[COLOR1, COLOR2, COLOR3, COLOR4]}
+                        />
+
+                <ProjectItem
                 src="../Gallery/eateat.png"
                 title="EATEAT"
                 text={<><h3>Hey! Are you visiting Toronto and don't know where to eat? Then EATEAT is created just. for. you. Now you can get a personalized food itinerary at the convenience of clicking 'run' on 'main.py'!
