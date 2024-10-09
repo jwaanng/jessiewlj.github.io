@@ -13,6 +13,18 @@ function Projects() {
     return (
         <>
             <div className='projects-container'>
+            <ProjectItem
+                src="../Gallery/buybye.png"
+                title="BUYBYE"
+                text={<><h3>HTV9 WINNER! Instead of buying hauls on clothing that are cheap and don't always look good, BYEBUY uses the power of stable diffusion and your lovely selfies to show you exactly how you would look like in those pieces of clothing you've been eyeing! This solution will not only save your wallet, but will help stop the cycle of mass buying fast fashion.</h3>
+                    <ul><li>Used Next.js to visualize how users look in various clothing items by combining Stable Diffusion AI inpainting techniques with photos.</li>
+                    <li>Integrated web scraping with Puppeteer and Cheerio to extract clothing item details from various e-commerce sites, enabling open web utility.</li>
+                    <li>Overcame technical challenges involving undocumented API integrations and endpoints, demonstrating strong problem-solving skills.</li>
+                    </ul></>}
+                    linkto="https://devpost.com/software/buybye"
+                    labels={["Puppeteer", "Next.js", "StableDiffusion", "TailwindCSS"]} colors={[COLOR1, COLOR2, COLOR3, COLOR4]}
+                    />
+
                 <ProjectItem
                     src='../Gallery/uoftguesser.png'
                     title="UofTGuesser"
@@ -36,7 +48,7 @@ function Projects() {
                     labels={["Java", "MongoDB", "CLEAN", "GoogleCloud"]} colors={[COLOR1, COLOR2, COLOR3, COLOR4]}
                         />
 
-                <ProjectItem
+                {/* <ProjectItem
                 src="../Gallery/eateat.png"
                 title="EATEAT"
                 text={<><h3>Hey! Are you visiting Toronto and don't know where to eat? Then EATEAT is created just. for. you. Now you can get a personalized food itinerary at the convenience of clicking 'run' on 'main.py'!
@@ -45,7 +57,7 @@ function Projects() {
                     <li>Utilized Tkinter map view to create a user-interactive map of restaurants based on a CSV dataset of locations, classification of food, and coordinates.</li>
                     </ul></>}
                 linkto="https://github.com/jwaanng/eat-eat"
-                labels={["Python", "Tkinter"]} colors={[COLOR2, COLOR3]}/>
+                labels={["Python", "Tkinter"]} colors={[COLOR2, COLOR3]}/> */}
 
                 <ProjectItem
                 src="../Gallery/myself.PNG"
@@ -70,6 +82,20 @@ function Projects() {
                     </ul></>}
                     labels={["GoDot", "GDScript"]} colors={[COLOR1, COLOR2]}
                     />
+                
+                {/* <ProjectItem 
+                src=""
+                alt="picture"
+                title="Newstalgia"
+                text={<><h3>Inspired by my enthusiasm for games and a love-hate relationship with a certain video game XXX, I channeled that dynamic into the creation of my own RPG.
+                    The goal of 'Escape From LOL' is to solve simple puzzles, fight mobs, while being hunted down by your duo in order to escape from the dooming "we can't end on a loss."</h3>
+                    <ul><li>Created an RPG game using GoDot game engine and GDScript</li>
+                    <li>Implemented core game mechanics, such as player movement, combat systems, and non-player mobs, lives, story, animation system and dialogue using GDScript.</li> 
+                    <li>Utilized GoDot's node system for efficient scene management and resource handling.</li>
+                    <li>Optimized game physics using real life physics </li>
+                    </ul></>}
+                    labels={["GoDot", "GDScript"]} colors={[COLOR1, COLOR2]}
+                    /> */}
             </div>
         </>
     )
